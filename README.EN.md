@@ -149,4 +149,4 @@ class App extends Component {
 
 # Licence
 
-for-editor is [MIT Licence](./LICENSE).
+for-editor-markdown is [MIT Licence](./LICENSE).

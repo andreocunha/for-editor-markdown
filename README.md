@@ -47,7 +47,7 @@ ReactDOM.render(<App />, document.getElementById('root'))
 | value       | String  | -           | Conteúdo da caixa de entrada                         |
 | placeholder | String  | Comece a editar... | Placeholder text                           |
 | lineNum     | Boolean | true        | Se deve exibir o número da linha                       |
-| style       | Object  | -           | 编辑器样式                         |
+| style       | Object  | -           | Estilo do editor                         |
 | height      | String  | 600px       | Altura de editor                         |
 | preview     | Boolean | false       | Modo de pré-visualização                           |
 | expand      | Boolean | false       | Modo tela cheia                           |
@@ -76,7 +76,7 @@ toolbar: {
 
 #### Eventos
 
-| name     | params 参数   | default | description    |
+| name     | params   | default | description    |
 | -------- | ------------- | ------- | -------------- |
 | onChange | String: value | -       | Retorno de chamada quando o conteúdo muda |
 | onSave   | String: value | -       | Retorno de chamada ao salvar     |
@@ -124,12 +124,12 @@ class App extends Component {
 
 | name   | description  |
 | ------ | ------------ |
-| tab    | 两个空格缩进 |
-| ctrl+s | 保存         |
-| ctrl+z | 上一步       |
-| ctrl+y | 下一步       |
+| tab    | Recuo de dois espaços |
+| ctrl+s | Salva         |
+| ctrl+z | Passo anterior       |
+| ctrl+y | Próxima Etapa       |
 
 
 ### Licença
 
-for-editor is [MIT Licence](./LICENSE).
+for-editor-markdown is [MIT Licence](./LICENSE).
