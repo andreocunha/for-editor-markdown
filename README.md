@@ -1,6 +1,6 @@
 # for-editor-markdown
 
-based on the [for-editor](https://github.com/kkfor/for-editor)
+based on [for-editor](https://github.com/kkfor/for-editor)
 
 ### Instalação
 
