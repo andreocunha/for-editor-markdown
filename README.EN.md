@@ -6,7 +6,7 @@ based on [for-editor](https://github.com/kkfor/for-editor)
 ### Install
 
 ```js
-npm install for-editor -S
+npm install for-editor-markdown -S
 ```
 
 ### Use
