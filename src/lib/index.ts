@@ -21,7 +21,7 @@ export const CONFIG: ICONFIG = {
     h1: true,
     h2: true,
     h3: true,
-    h4: true,
+    // h4: true,
     img: true,
     link: true,
     code: true,
@@ -29,7 +29,7 @@ export const CONFIG: ICONFIG = {
     expand: true,
     undo: true,
     redo: true,
-    save: true,
+    // save: true,
     subfield: true
   }
 }

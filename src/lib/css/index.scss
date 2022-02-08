@@ -41,11 +41,12 @@
     font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 0 6px;
     border-bottom: 2px solid #5e647e;
     color: #fff;
     user-select: none;
-    background: #383A59;
+    background: #111826;
 
     > ul {
       display: flex;
@@ -121,6 +122,7 @@
   .for-editor {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     height: 100%;
     color: #2c3e50;
     border-radius: 0 0 8px 8px;
@@ -161,7 +163,7 @@
 
       .for-line-num {
         list-style: none;
-        background: #383A59;
+        background: #111826;
         color: #fff;
         padding: 8px 0 120px;
         min-width: 30px;

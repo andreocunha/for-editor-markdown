@@ -13,7 +13,7 @@ npm install for-editor-markdown
 ```js
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import Editor from 'for-editor'
+import MdEditor from 'for-editor-markdown'
 
 class App extends Component {
   constructor() {
@@ -31,7 +31,7 @@ class App extends Component {
 
   render() {
     const { value } = this.state
-    return <Editor value={value} onChange={() => this.handleChange()} />
+    return <MdEditor value={value} onChange={() => this.handleChange()} />
   }
 }
 
@@ -109,7 +109,7 @@ class App extends Component {
     const { value } = this.state
 
     return (
-      <Editor
+      <MdEditor
         ref={this.$vm}
         value={value}
         addImg={($file) => this.addImg($file)}
